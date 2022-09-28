@@ -1,0 +1,13 @@
+TITLE: Gas leakage and monitoring system
+
+Gowtham K– 917719IT031
+Surya B– 917719IT107
+Aravind V– 917719IT009
+Karthick S– 917719IT046
+"""
+import random
+while(True):
+    temp=random.randrange(0,100)
+    humid=random.randrange(0,100)
+    if (temp>90 or temp<80) and humid>60:
+        print("------Dangerious!!!------")
